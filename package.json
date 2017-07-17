@@ -1,29 +1,26 @@
 {
-  "name": "eatdaburger",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "burger app ",
-  "main": "server.js",
+  "description": "Eat-Da-Burger",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romibabe/eatdaburger.git"
+    "url": "git+https://github.com/erinlevine/burger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Romibabe/eatdaburger/issues"
+    "url": "https://github.com/erinlevine/burger/issues"
   },
-  "homepage": "https://github.com/Romibabe/eatdaburger#readme",
+  "homepage": "https://github.com/erinlevine/burger#readme",
   "dependencies": {
-    "body": "^5.1.0",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
-    "handlebars": "^4.0.10",
-    "method": "^2.0.0",
-    "mysql": "^2.13.0",
-    "override": "0.0.1",
-    "parser": "^0.1.4"
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
   }
 }
